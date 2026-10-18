@@ -1,0 +1,8 @@
+{
+  "source_card_id": "lora_temp_source",
+  "protocol": "LoRaWAN",
+  "payload_format": "signed int16 temperature in centi-degrees Celsius, big-endian, encoded as hexadecimal string",
+  "codec": "decode_lorawan_temperature_centi_c_be",
+  "measurement_type": "temperature",
+  "source_unit": "Cel"
+}

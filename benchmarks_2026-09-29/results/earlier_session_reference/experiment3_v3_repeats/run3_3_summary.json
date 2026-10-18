@@ -1,0 +1,59 @@
+{
+  "total_frames": 10000,
+  "accepted": 5500,
+  "rejected": 4500,
+  "false_accept": 0,
+  "false_reject": 0,
+  "published_invalid": 0,
+  "rejection_reasons": {
+    "unresolved_identity": 1000,
+    "malformed_payload": 1000,
+    "incompatible_unit_concept": 500,
+    "unknown_source_card": 500,
+    "missing_field": 500,
+    "wrong_datatype": 500,
+    "out_of_range": 500
+  },
+  "latency_ms": {
+    "mean": 0.0040078898,
+    "p50": 0.004,
+    "p95": 0.004685,
+    "p99": 0.005723170000000003,
+    "std": 0.054440222688262915
+  },
+  "accepted_latency_ms": {
+    "mean": 0.0053132887272727275,
+    "p50": 0.004204,
+    "p95": 0.00516605,
+    "p99": 0.005852
+  },
+  "stage_means_ns": {
+    "lookup_ns": 173.75836363636364,
+    "identity_ns": 308.7409090909091,
+    "decode_ns": 2037.812909090909,
+    "normalize_ns": 863.9061818181818,
+    "gate_ns": 893.2530909090909,
+    "publication_decision_ns": 131.60618181818182
+  },
+  "timer_floors_ns_per_call": {
+    "bare_ns_per_call": 244.14792,
+    "dict_get_ns_per_call": 274.13662
+  },
+  "gate_enabled": true,
+  "invariance_check": {
+    "n_probe_frames": 300,
+    "protocols_exercised": [
+      "BLE",
+      "LoRaWAN",
+      "ZigBee"
+    ],
+    "distinct_canonical_devices": [
+      "canon_migrated_001"
+    ],
+    "distinct_output_topics": [
+      "uns/site_1/device/canon_migrated_001/temperature"
+    ],
+    "all_accepted": true,
+    "single_device_single_topic": true
+  }
+}

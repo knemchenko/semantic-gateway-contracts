@@ -1,0 +1,42 @@
+{
+  "part1_legacy_fport_A_then_B": {
+    "frames": 404,
+    "accepted": 364,
+    "correct": 202,
+    "silent_wrong": 162,
+    "rejected": 40
+  },
+  "part1_legacy_fport_B_then_A": {
+    "frames": 404,
+    "accepted": 404,
+    "correct": 202,
+    "silent_wrong": 202,
+    "rejected": 0
+  },
+  "part1_bound_profile": {
+    "frames": 404,
+    "accepted": 404,
+    "correct": 404,
+    "silent_wrong": 0,
+    "rejected": 0
+  },
+  "part2_key_only": {
+    "frames": 202,
+    "accepted": 202,
+    "correct": 101,
+    "silent_wrong": 101,
+    "rejected": 0
+  },
+  "part2_key_endpoint": {
+    "frames": 202,
+    "accepted": 202,
+    "correct": 202,
+    "silent_wrong": 0,
+    "rejected": 0
+  },
+  "provisioning": {
+    "clean_binding_errors": 0,
+    "dangling_profile_errors": 1,
+    "concept_mismatch_errors": 2
+  }
+}

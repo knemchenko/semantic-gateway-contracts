@@ -1,0 +1,102 @@
+[
+  {
+    "target_rate_hz": 27150.0,
+    "n_offered": 4000,
+    "n_ok": 4000,
+    "n_dropped": 0,
+    "n_unregistered_profile": 0,
+    "n_malformed": 0,
+    "achieved_throughput_hz": 10598.579050333725,
+    "duration_s": 0.37740908295381814,
+    "max_queue_depth_sampled": 1,
+    "mean_queue_depth_sampled": 1.0,
+    "latency_us": {
+      "mean": 20.390111370943487,
+      "p50": 13.638520613312721,
+      "p95": 30.83300543949008,
+      "p99": 32.759227906353765,
+      "max": 132.8890211880207
+    },
+    "fraction_of_lambda_max": 0.5
+  },
+  {
+    "target_rate_hz": 54300.0,
+    "n_offered": 4000,
+    "n_ok": 4000,
+    "n_dropped": 0,
+    "n_unregistered_profile": 0,
+    "n_malformed": 0,
+    "achieved_throughput_hz": 13102.603432536971,
+    "duration_s": 0.30528284097090364,
+    "max_queue_depth_sampled": 1,
+    "mean_queue_depth_sampled": 1.0,
+    "latency_us": {
+      "mean": 20.023486722493544,
+      "p50": 13.018987374380231,
+      "p95": 30.11099761351943,
+      "p99": 31.148204579949375,
+      "max": 81.0180208645761
+    },
+    "fraction_of_lambda_max": 1.0
+  },
+  {
+    "target_rate_hz": 108600.0,
+    "n_offered": 4000,
+    "n_ok": 4000,
+    "n_dropped": 0,
+    "n_unregistered_profile": 0,
+    "n_malformed": 0,
+    "achieved_throughput_hz": 14971.890967223493,
+    "duration_s": 0.2671673209988512,
+    "max_queue_depth_sampled": 1,
+    "mean_queue_depth_sampled": 1.0,
+    "latency_us": {
+      "mean": 19.994293979834765,
+      "p50": 15.04601095803082,
+      "p95": 30.148017685860395,
+      "p99": 30.88919154834002,
+      "max": 70.8519946783781
+    },
+    "fraction_of_lambda_max": 2.0
+  },
+  {
+    "target_rate_hz": 271500.0,
+    "n_offered": 4000,
+    "n_ok": 4000,
+    "n_dropped": 0,
+    "n_unregistered_profile": 0,
+    "n_malformed": 0,
+    "achieved_throughput_hz": 16337.558931134636,
+    "duration_s": 0.24483461800264195,
+    "max_queue_depth_sampled": 1,
+    "mean_queue_depth_sampled": 1.0,
+    "latency_us": {
+      "mean": 19.709731874172576,
+      "p50": 11.352007277309895,
+      "p95": 30.129976221360266,
+      "p99": 30.889001209288836,
+      "max": 61.87101826071739
+    },
+    "fraction_of_lambda_max": 5.0
+  },
+  {
+    "target_rate_hz": 543000.0,
+    "n_offered": 4000,
+    "n_ok": 4000,
+    "n_dropped": 0,
+    "n_unregistered_profile": 0,
+    "n_malformed": 0,
+    "achieved_throughput_hz": 16827.312532159325,
+    "duration_s": 0.2377087839995511,
+    "max_queue_depth_sampled": 1,
+    "mean_queue_depth_sampled": 1.0,
+    "latency_us": {
+      "mean": 20.051796091138385,
+      "p50": 17.01849396340549,
+      "p95": 30.20401345565915,
+      "p99": 31.148157431744036,
+      "max": 78.16602010279894
+    },
+    "fraction_of_lambda_max": 10.0
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "experiment_name": "source_card_target_contract_filtering_v2",
+  "description": "Revised validation-gate experiment: source-card/target-contract split, Gate runs after normalization, extended constraint checking, plus a dedicated cross-protocol single-device Proposition-1 probe.",
+  "seed": 42,
+  "calibration_iterations": 100000,
+  "total_frames": 10000,
+  "traffic_mix": {
+    "valid": 0.55,
+    "unknown_source_card": 0.05,
+    "unresolved_identity": 0.10,
+    "malformed_payload": 0.10,
+    "missing_field": 0.05,
+    "wrong_datatype": 0.05,
+    "incompatible_unit_concept": 0.05,
+    "out_of_range": 0.05
+  },
+  "valid_temperature_generation_range_celsius": {
+    "min": -10.0,
+    "max": 40.0
+  },
+  "out_of_range_temperature_values_celsius": [-60.0, 125.0],
+  "source_cards_dir": "source_cards",
+  "canonical_registry": "canonical_registry.json",
+  "results_dir": "results_v2",
+  "bulk_device_instances": [
+    {"protocol": "LoRaWAN", "source_card_id": "lora_temp_source", "stable_key": "DEVEUI-LORA-001", "channel": "ch0"},
+    {"protocol": "ZigBee", "source_card_id": "zigbee_temp_source", "stable_key": "EUI64-ZIG-002", "channel": "ch0"},
+    {"protocol": "BLE", "source_card_id": "ble_temp_source", "stable_key": "MAC-BLE-003", "channel": "ch0"}
+  ],
+  "invariance_frames_per_protocol": 100,
+  "invariance_bindings": [
+    {"protocol": "LoRaWAN", "source_card_id": "lora_temp_source", "stable_key": "DEVEUI-MIG-001", "channel": "ch0"},
+    {"protocol": "ZigBee", "source_card_id": "zigbee_temp_source", "stable_key": "EUI64-MIG-001", "channel": "ch0"},
+    {"protocol": "BLE", "source_card_id": "ble_temp_source", "stable_key": "MAC-MIG-001", "channel": "ch0"}
+  ]
+}

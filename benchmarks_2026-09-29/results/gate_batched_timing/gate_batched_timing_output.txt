@@ -1,0 +1,4 @@
+trials=5 batch_size=2000000
+enabled:  mean=964.07 ns  std=1.56 ns  per-trial=['966.41', '963.35', '962.96', '962.27', '965.38']
+disabled: mean=82.25 ns  std=0.06 ns  per-trial=['82.27', '82.15', '82.34', '82.26', '82.24']
+batched marginal cost = 881.82 ns/frame

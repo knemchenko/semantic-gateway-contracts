@@ -1,0 +1,8 @@
+{
+  "source_card_id": "ble_temp_source",
+  "protocol": "BLE",
+  "payload_format": "GATT-like characteristic value: signed int16 temperature in centi-degrees Celsius, little-endian, encoded as hexadecimal string",
+  "codec": "decode_ble_temperature_centi_c_le",
+  "measurement_type": "temperature",
+  "source_unit": "Cel"
+}

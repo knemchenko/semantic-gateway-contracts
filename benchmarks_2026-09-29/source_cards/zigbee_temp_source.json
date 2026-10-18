@@ -1,0 +1,8 @@
+{
+  "source_card_id": "zigbee_temp_source",
+  "protocol": "ZigBee",
+  "payload_format": "ZCL-like temperature attribute: attribute_id 0x0000 followed by signed int16 temperature in centi-degrees Celsius, little-endian, encoded as hexadecimal string",
+  "codec": "decode_zigbee_temperature_zcl_attr_le",
+  "measurement_type": "temperature",
+  "source_unit": "Cel"
+}

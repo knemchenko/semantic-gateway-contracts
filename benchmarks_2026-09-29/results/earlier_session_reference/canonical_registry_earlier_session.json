@@ -1,0 +1,46 @@
+{
+  "identity_links": {
+    "LoRaWAN": {
+      "DEVEUI-LORA-001": "lora_dev_001",
+      "DEVEUI-MIG-001": "canon_migrated_001"
+    },
+    "ZigBee": {
+      "EUI64-ZIG-002": "zigbee_dev_002",
+      "EUI64-MIG-001": "canon_migrated_001"
+    },
+    "BLE": {
+      "MAC-BLE-003": "ble_dev_003",
+      "MAC-MIG-001": "canon_migrated_001"
+    }
+  },
+  "target_contracts": {
+    "lora_dev_001": {
+      "schema_id": "temp_contract_v1",
+      "version": 1,
+      "unit": "Cel",
+      "valid_range": [-40.0, 85.0],
+      "topic": "uns/site_1/device/lora_dev_001/temperature"
+    },
+    "zigbee_dev_002": {
+      "schema_id": "temp_contract_v1",
+      "version": 1,
+      "unit": "Cel",
+      "valid_range": [-40.0, 85.0],
+      "topic": "uns/site_1/device/zigbee_dev_002/temperature"
+    },
+    "ble_dev_003": {
+      "schema_id": "temp_contract_v1",
+      "version": 1,
+      "unit": "Cel",
+      "valid_range": [-40.0, 85.0],
+      "topic": "uns/site_1/device/ble_dev_003/temperature"
+    },
+    "canon_migrated_001": {
+      "schema_id": "temp_contract_v1",
+      "version": 1,
+      "unit": "Cel",
+      "valid_range": [-40.0, 85.0],
+      "topic": "uns/site_1/device/canon_migrated_001/temperature"
+    }
+  }
+}

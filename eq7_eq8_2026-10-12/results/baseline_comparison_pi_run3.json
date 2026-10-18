@@ -1,0 +1,345 @@
+{
+  "fault_matrix": [
+    {
+      "fault": "M1_duplicate_topic",
+      "system": "C",
+      "provisioning_errors": null,
+      "frames": 255,
+      "published": 255,
+      "rejected": 0,
+      "wrong_published": 51,
+      "correct": 204,
+      "wrong_if_gated": 51
+    },
+    {
+      "fault": "M1_duplicate_topic",
+      "system": "C+",
+      "provisioning_errors": 1,
+      "frames": 255,
+      "published": 255,
+      "rejected": 0,
+      "wrong_published": 51,
+      "correct": 204,
+      "wrong_if_gated": 0
+    },
+    {
+      "fault": "M1_duplicate_topic",
+      "system": "O",
+      "provisioning_errors": 1,
+      "frames": 255,
+      "published": 255,
+      "rejected": 0,
+      "wrong_published": 51,
+      "correct": 204,
+      "wrong_if_gated": 0
+    },
+    {
+      "fault": "M2_missing_mapping",
+      "system": "C",
+      "provisioning_errors": null,
+      "frames": 255,
+      "published": 204,
+      "rejected": 51,
+      "wrong_published": 0,
+      "correct": 204,
+      "wrong_if_gated": 0
+    },
+    {
+      "fault": "M2_missing_mapping",
+      "system": "C+",
+      "provisioning_errors": 1,
+      "frames": 255,
+      "published": 204,
+      "rejected": 51,
+      "wrong_published": 0,
+      "correct": 204,
+      "wrong_if_gated": 0
+    },
+    {
+      "fault": "M2_missing_mapping",
+      "system": "O",
+      "provisioning_errors": 1,
+      "frames": 255,
+      "published": 204,
+      "rejected": 51,
+      "wrong_published": 0,
+      "correct": 204,
+      "wrong_if_gated": 0
+    },
+    {
+      "fault": "M3_unit_not_converted",
+      "system": "C",
+      "provisioning_errors": null,
+      "frames": 255,
+      "published": 244,
+      "rejected": 11,
+      "wrong_published": 40,
+      "correct": 204,
+      "wrong_if_gated": 40
+    },
+    {
+      "fault": "M3_unit_not_converted",
+      "system": "C+",
+      "provisioning_errors": 0,
+      "frames": 255,
+      "published": 244,
+      "rejected": 11,
+      "wrong_published": 40,
+      "correct": 204,
+      "wrong_if_gated": 40
+    },
+    {
+      "fault": "M3_unit_not_converted",
+      "system": "O",
+      "provisioning_errors": 0,
+      "frames": 255,
+      "published": 244,
+      "rejected": 11,
+      "wrong_published": 40,
+      "correct": 204,
+      "wrong_if_gated": 40
+    },
+    {
+      "fault": "M4_concept_conflict",
+      "system": "C",
+      "provisioning_errors": null,
+      "frames": 255,
+      "published": 255,
+      "rejected": 0,
+      "wrong_published": 51,
+      "correct": 204,
+      "wrong_if_gated": 51
+    },
+    {
+      "fault": "M4_concept_conflict",
+      "system": "C+",
+      "provisioning_errors": 1,
+      "frames": 255,
+      "published": 204,
+      "rejected": 51,
+      "wrong_published": 0,
+      "correct": 204,
+      "wrong_if_gated": 0
+    },
+    {
+      "fault": "M4_concept_conflict",
+      "system": "O",
+      "provisioning_errors": 1,
+      "frames": 255,
+      "published": 204,
+      "rejected": 51,
+      "wrong_published": 0,
+      "correct": 204,
+      "wrong_if_gated": 0
+    },
+    {
+      "fault": "M5_wrong_decoder",
+      "system": "C",
+      "provisioning_errors": null,
+      "frames": 255,
+      "published": 255,
+      "rejected": 0,
+      "wrong_published": 51,
+      "correct": 204,
+      "wrong_if_gated": 51
+    },
+    {
+      "fault": "M5_wrong_decoder",
+      "system": "C+",
+      "provisioning_errors": 0,
+      "frames": 255,
+      "published": 255,
+      "rejected": 0,
+      "wrong_published": 51,
+      "correct": 204,
+      "wrong_if_gated": 51
+    },
+    {
+      "fault": "M5_wrong_decoder",
+      "system": "O",
+      "provisioning_errors": 0,
+      "frames": 255,
+      "published": 255,
+      "rejected": 0,
+      "wrong_published": 51,
+      "correct": 204,
+      "wrong_if_gated": 51
+    },
+    {
+      "fault": "M6_dangling_reference",
+      "system": "C",
+      "provisioning_errors": null,
+      "frames": 255,
+      "published": 204,
+      "rejected": 51,
+      "wrong_published": 0,
+      "correct": 204,
+      "wrong_if_gated": 0
+    },
+    {
+      "fault": "M6_dangling_reference",
+      "system": "C+",
+      "provisioning_errors": 1,
+      "frames": 255,
+      "published": 204,
+      "rejected": 51,
+      "wrong_published": 0,
+      "correct": 204,
+      "wrong_if_gated": 0
+    },
+    {
+      "fault": "M6_dangling_reference",
+      "system": "O",
+      "provisioning_errors": 1,
+      "frames": 255,
+      "published": 204,
+      "rejected": 51,
+      "wrong_published": 0,
+      "correct": 204,
+      "wrong_if_gated": 0
+    }
+  ],
+  "effort": [
+    {
+      "scenario": "S1_add_device_existing_profile",
+      "O_data_rows": 4,
+      "O_code_functions": 0,
+      "C+_data_rows": 2,
+      "C+_code_functions": 0,
+      "O_items": [
+        "binding[('LoRaWAN', 'DEVEUI-A2', 2)]",
+        "identity[('LoRaWAN', 'DEVEUI-A2')]",
+        "channels[('dev_A2', 'px', 2)]",
+        "contracts[('dev_A2', 'ch0')]"
+      ],
+      "C+_items": [
+        "table[('LoRaWAN', 'DEVEUI-A2', 2)]",
+        "inventory+('LoRaWAN', 'DEVEUI-A2', 2)"
+      ]
+    },
+    {
+      "scenario": "S2_add_device_new_profile_K",
+      "O_data_rows": 5,
+      "O_code_functions": 1,
+      "C+_data_rows": 3,
+      "C+_code_functions": 1,
+      "O_items": [
+        "cards[pk]",
+        "binding[('LoRaWAN', 'DEVEUI-K1', 2)]",
+        "identity[('LoRaWAN', 'DEVEUI-K1')]",
+        "channels[('dev_K1', 'pk', 2)]",
+        "contracts[('dev_K1', 'ch0')]"
+      ],
+      "C+_items": [
+        "meta[pk]",
+        "table[('LoRaWAN', 'DEVEUI-K1', 2)]",
+        "inventory+('LoRaWAN', 'DEVEUI-K1', 2)"
+      ]
+    },
+    {
+      "scenario": "S3_add_second_channel_existing",
+      "O_data_rows": 3,
+      "O_code_functions": 0,
+      "C+_data_rows": 2,
+      "C+_code_functions": 0,
+      "O_items": [
+        "binding[('LoRaWAN', 'DEVEUI-B1', 5)]",
+        "channels[('dev_B1', 'py', 5)]",
+        "contracts[('dev_B1', 'ch1')]"
+      ],
+      "C+_items": [
+        "table[('LoRaWAN', 'DEVEUI-B1', 5)]",
+        "inventory+('LoRaWAN', 'DEVEUI-B1', 5)"
+      ]
+    },
+    {
+      "scenario": "S4_canonical_unit_policy_Cel_to_K",
+      "O_data_rows": 7,
+      "O_code_functions": 0,
+      "O_verified_correct_frames": 255,
+      "O_incorrect_frames": 0,
+      "C+_data_rows": 10,
+      "C+_code_functions": 4,
+      "C+_verified_correct_frames": 255,
+      "C+_incorrect_frames": 0,
+      "O_items": [
+        "contracts[('dev_A1', 'ch0')]",
+        "contracts[('dev_A1', 'ch1')]",
+        "contracts[('dev_B1', 'ch0')]",
+        "contracts[('dev_Z1', 'ch0')]",
+        "contracts[('dev_F1', 'ch0')]",
+        "r_qu+('saref:Temperature', 'K')",
+        "r_qu-('saref:Temperature', 'Cel')"
+      ],
+      "C+_items": [
+        "meta[px]",
+        "meta[py]",
+        "meta[pz]",
+        "meta[pf]",
+        "table[('LoRaWAN', 'DEVEUI-A1', 2)]",
+        "table[('LoRaWAN', 'DEVEUI-A1', 5)]",
+        "table[('LoRaWAN', 'DEVEUI-B1', 2)]",
+        "table[('ZigBee', 'EUI64-Z1', 1)]",
+        "table[('LoRaWAN', 'DEVEUI-F1', 2)]",
+        "range constant"
+      ]
+    }
+  ],
+  "timing": {
+    "C": {
+      "n_batches": 7,
+      "loops_per_batch": 200,
+      "frames_per_loop": 255,
+      "ns_per_frame_mean": 1000.7,
+      "ns_per_frame_sd": 1.4,
+      "ns_per_frame_median": 1000.6,
+      "ns_per_frame_min": 999.1,
+      "ns_per_frame_all": [
+        1003.6,
+        1001.1,
+        1000.6,
+        1000.8,
+        999.6,
+        999.1,
+        1000.0
+      ]
+    },
+    "C+": {
+      "n_batches": 7,
+      "loops_per_batch": 200,
+      "frames_per_loop": 255,
+      "ns_per_frame_mean": 1127.7,
+      "ns_per_frame_sd": 1.0,
+      "ns_per_frame_median": 1127.5,
+      "ns_per_frame_min": 1126.5,
+      "ns_per_frame_all": [
+        1129.7,
+        1127.5,
+        1127.7,
+        1127.6,
+        1127.2,
+        1126.5,
+        1127.5
+      ]
+    },
+    "O": {
+      "n_batches": 7,
+      "loops_per_batch": 200,
+      "frames_per_loop": 255,
+      "ns_per_frame_mean": 1668.1,
+      "ns_per_frame_sd": 0.7,
+      "ns_per_frame_median": 1668.0,
+      "ns_per_frame_min": 1667.0,
+      "ns_per_frame_all": [
+        1668.8,
+        1668.0,
+        1668.4,
+        1667.9,
+        1667.7,
+        1669.1,
+        1667.0
+      ]
+    }
+  },
+  "python": "3.13.5"
+}

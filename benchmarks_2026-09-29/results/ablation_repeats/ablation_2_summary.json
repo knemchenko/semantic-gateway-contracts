@@ -1,0 +1,104 @@
+{
+  "total_frames": 10000,
+  "accepted": 7500,
+  "rejected": 2500,
+  "false_accept": 2000,
+  "false_reject": 0,
+  "published_invalid": 2000,
+  "rejection_reasons": {
+    "unknown_source_card": 500,
+    "malformed_payload": 1000,
+    "unresolved_identity": 1000
+  },
+  "per_traffic_class": {
+    "valid": {
+      "count": 5500,
+      "p_j": 0.55,
+      "mean_latency_ns": 4268.792363636364
+    },
+    "out_of_range": {
+      "count": 500,
+      "p_j": 0.05,
+      "mean_latency_ns": 4320.132
+    },
+    "wrong_datatype": {
+      "count": 500,
+      "p_j": 0.05,
+      "mean_latency_ns": 4475.628
+    },
+    "unknown_source_card": {
+      "count": 500,
+      "p_j": 0.05,
+      "mean_latency_ns": 551.324
+    },
+    "malformed_payload": {
+      "count": 1000,
+      "p_j": 0.1,
+      "mean_latency_ns": 2725.549
+    },
+    "missing_field": {
+      "count": 500,
+      "p_j": 0.05,
+      "mean_latency_ns": 4297.092
+    },
+    "unresolved_identity": {
+      "count": 1000,
+      "p_j": 0.1,
+      "mean_latency_ns": 1024.374
+    },
+    "wrong_concept": {
+      "count": 250,
+      "p_j": 0.025,
+      "mean_latency_ns": 4256.408
+    },
+    "wrong_unit": {
+      "count": 250,
+      "p_j": 0.025,
+      "mean_latency_ns": 4263.128
+    }
+  },
+  "latency_ms": {
+    "mean": 0.0036180253,
+    "p50": 0.004092,
+    "p95": 0.004704,
+    "p99": 0.005759,
+    "std": 0.0013962426115327916
+  },
+  "accepted_latency_ms": {
+    "mean": 0.004287289066666667,
+    "p50": 0.004185,
+    "p95": 0.005074899999999987,
+    "p99": 0.005796
+  },
+  "stage_means_ns": {
+    "lookup_ns": 174.5304,
+    "identity_ns": 315.9432,
+    "channel_ns": 521.7550666666667,
+    "decode_ns": 1064.2078666666666,
+    "normalize_ns": 931.2813333333334,
+    "gate_ns": 109.31973333333333,
+    "publication_decision_ns": 121.62573333333333
+  },
+  "timer_floors_ns_per_call": {
+    "bare_ns_per_call": 242.57058,
+    "dict_get_ns_per_call": 272.44502
+  },
+  "gate_enabled": false,
+  "seed": 43,
+  "invariance_check": {
+    "n_probe_frames": 300,
+    "protocols_exercised": [
+      "BLE",
+      "LoRaWAN",
+      "ZigBee"
+    ],
+    "distinct_canonical_devices": [
+      "canon_migrated_001"
+    ],
+    "distinct_output_topics": [
+      "uns/site_1/device/canon_migrated_001/temperature"
+    ],
+    "all_accepted": true,
+    "single_device_single_topic": true
+  }
+}
