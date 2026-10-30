@@ -2,7 +2,7 @@
 
 Code, configuration, and raw results for the paper
 
-> K. Nemchenko, L. Globa, A. Vizzarri, F. Mazzenga: *Ontology-Guided Semantic Unification in Multiprotocol IoT
+> K. Nemchenko, L. Globa, V. Yarmolenko, A. Vizzarri, F. Mazzenga: *Ontology-Guided Semantic Unification in Multiprotocol IoT
 > Gateways: A Formal Gateway Model and Contract-Validation Framework* (Springer, PT-2026 recommended paper).
 
 The paper splits per-device translation in a multiprotocol IoT gateway into a per-protocol **Source Card** and
